@@ -18,6 +18,7 @@ pipeline {
 
         stage('Build with Gradle') {
             steps {
+                sh 'chmod +x ./gradlew'
                 sh './gradlew clean build -x test'
             }
         }
