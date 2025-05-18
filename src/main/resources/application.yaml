@@ -1,0 +1,27 @@
+#spring:
+#  application:
+#    name: sampleSpringJPA
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:sampleDB
+#    username: sa
+#    password: password
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    show-sql: true
+#    properties:
+#      hibernate:
+#       format_sql: true
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        orm:
+#          jdbc:
+#            bind: TRACE
+
+server:
+  port: 9091
